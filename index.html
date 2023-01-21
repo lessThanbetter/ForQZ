@@ -11,7 +11,7 @@
 </head>
 <body onselectstart = "return false">
 <audio autoplay loop>
-	<source src="https://ppt-mp3cdn.hrxz.com/d/file/filemp3/hrxz.com-0z1dvx5swpx7027.mp3">
+	<source src="mp3/fire.mp3">
 </audio>
 <div style="height:700px;overflow:hidden;">
 
@@ -36,10 +36,10 @@
 		ocas.width = canvas.width = window.innerWidth;
 		ocas.height = canvas.height = 700;
 		var bigbooms = [];
+		document.querySelector("audio").play()
 	
 		window.onload = function(){
 			initAnimate()
-			document.querySelector("audio").play()
 		}
 
 		function initAnimate(){
